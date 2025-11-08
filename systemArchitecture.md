@@ -4,11 +4,11 @@
 Nexus is a  mobile 3D interior design application that enables users to scan or enter room dimensions, auto-generate layouts, and create realistic 3D visualizations and AR previews. Includes platform compatibility (iOS and Android) using a modern tech stack focused on performance, scalability, and ease of maintenance. 
 
 This app emphasizes client-side 3D rendering to provide a seamless, offline-capable experience, with optional cloud integration for collaboration and asset storage. This document outlines the high-level architecture, components, data flow,
----
+
 
 # Tech Stack Overview
 
----
+
 
 ##  Frontend
 
@@ -16,7 +16,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - Cross-platform UI/UX development ensuring native performance on both **iOS** and **Android**.  
 - Responsive, smooth, and visually consistent interfaces using **Material (Android)** and **Cupertino (iOS)** design systems.  
 
----
+
 
 ##  3D Rendering & AR Engine
 
@@ -29,7 +29,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
   - **ARCore** for Android  
 - Uses a **Flutter-Unity bridge** for seamless communication between the UI and rendering layers.
 
----
+
 
 ## Backend Services
 
@@ -39,14 +39,14 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - Cloud Storage for images, textures, and small assets  
 - Optional **AWS S3** for large 3D model libraries or backups  
 
----
+
 
 ## Database
 
 - **Local:** `SQLite` or `Hive` for offline project data, preferences, and cache  
 - **Cloud:** `Firestore` for backups, real-time updates, and collaboration sync  
 
----
+
 
 ## API Integrations
 
@@ -56,7 +56,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - **Payment Processing:**  
   Powered by **Stripe** for in-app subscriptions and premium upgrades.
 
----
+
 
 ##  Other Core Tools
 
@@ -68,11 +68,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 | Analytics | Google Analytics  |
 |  Error Tracking | Firebase / Sentry |
 
----
+
 
 # High-Level Components
 
----
+
 
 ##  User Interface Layer
 - Built entirely with **Flutter widgets**  
@@ -82,7 +82,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
   - Pinch-to-zoom  
   - Pan & rotate in 3D view  
 
----
+
 
 ##  Business Logic Layer
 - Manages **core design operations**:
@@ -95,7 +95,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - Plugins used:  
   - `camera`, `ar_flutter_plugin`, and custom Unity bridge  
 
----
+
 
 ##  Data Layer
 - **Local Cache:**  
@@ -105,7 +105,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - **Conflict Handling:**  
   Timestamp-based merge for real-time collaboration.
 
----
+
 
 ## Rendering Engine
 - **Unity Engine** handles:
@@ -116,7 +116,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
   - Flutter ↔ Unity via JSON events  
   - Syncs object transforms and user actions  
 
----
+
 
 ##  Security & Authentication
 - OAuth via **Firebase Authentication** (Email/Social logins)  
@@ -126,11 +126,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
   - Basic users → limited saves  
   - Pro users → full library + cloud features  
 
----
 
-# 🔄 Data Flow
 
----
+#  Data Flow
+
+
 
 1. **User Input:**  
    Camera feed captured, Processed via ML models (for dimension detection).  
@@ -147,11 +147,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
    Pending updates queued locally until connection is restored.  
    Optional **PWA mode** via Workbox for web deployments.  
 
----
+
 
 # Scalability Considerations
 
----
+
 
 ###  Asset Optimization
 - Compress 3D models into **GLTF** format  
@@ -167,11 +167,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 - Firebase scales automatically with user base  
 - Monitor with **Google Cloud Monitoring & Analytics**  
 
----
+
 
 # Deployment & Maintenance
 
----
+
 
 | Process | Tool / Platform |
 |----------|----------------|
@@ -181,12 +181,12 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 |  Monitoring | Firebase Crashlytics, Sentry |
 |  Store Deployment | Automated publish to App Store & Play Store |
 
----
 
 
 
 
----
+
+
 
 ## 11. Diagrams and Framework
 - 
@@ -196,7 +196,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 
 
  `Link To UserFlow :https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747`
----
+
 
 ## 12. Further Development steps
 - Finalize AR implementation choice: **Unity AR Foundation** vs **native ARKit/ARCore** + React Native bridge.  
