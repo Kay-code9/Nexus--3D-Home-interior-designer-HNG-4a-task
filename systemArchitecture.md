@@ -34,7 +34,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 ## Backend Services
 
 **Platform:** `Firebase`  
-- Authentication (emailor Google) 
+- Authentication (email or Google) 
 - Real-time Database for project sync and collaboration  
 - Cloud Storage for images, textures, and small assets  
 - Optional **AWS S3** for large 3D model libraries or backups  
