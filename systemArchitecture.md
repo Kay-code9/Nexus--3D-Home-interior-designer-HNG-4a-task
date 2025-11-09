@@ -96,8 +96,8 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
   - `camera`, `AR_flutter_plugin`, and custom Unity bridge  
 
 
-
-##  Data Layer
+`
+##  Data Layer`
 - **Local Cache:**  
   Stores 3D models, user settings, and unsynced changes.  
 - **Cloud Sync:**  
