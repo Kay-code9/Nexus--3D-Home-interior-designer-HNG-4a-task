@@ -152,7 +152,7 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 
 - !(images/dataflow_3.png)
 
- `Link To Dataflow :(https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747)`
+ `[Link To Dataflow](https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747)`
 
 
 
@@ -197,15 +197,15 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 
 ## 11. Diagrams and Framework
 - 
-![From App lauch through the Dashboard to Template Browse  ](images/userflow_1.png) ![Through the "Tour/Template Edit mode/Draw from scratch" to" Drag and drop/add rooms"](images/userflow_2.png)
+![From App lauch through the Dashboard to Template Browse](images/userflow_1.png) ![Through the "Tour/Template Edit mode/Draw from scratch" to" Drag and drop/add rooms"](images/userflow_2.png)
 
- ![Through" Template Edit mode" to "Save design plan/dowload"] (images/userflow_3.png)
-
-
+ ![Through" Template Edit mode" to "Save design plan/dowload"](images/userflow_3.png)
 
 
 
- `Link To UserFlow: (https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747)`
+
+
+ `![Link To UserFlow](https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747)`
 
 
 ## 12. Further Development steps
