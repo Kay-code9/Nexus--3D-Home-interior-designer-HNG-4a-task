@@ -197,9 +197,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 
 ## 11. Diagrams and Framework
 - 
-![From App lauch through the Dashboard to Template Browse](images/userflow_1.png) ![Through the "Tour/Template Edit mode/Draw from scratch" to" Drag and drop/add rooms"](images/userflow_2.png)
+![From App launch through the Dashboard to Template Browse](images/userflow_1.png)
 
- ![Through" Template Edit mode" to "Save design plan/dowload"](images/userflow_3.png)
+![Through the "Tour/Template Edit mode/Draw from scratch" to "Drag and drop/add rooms"](images/userflow_2.png)
+
+![Through "Template Edit mode" to "Save design plan/download"](images/userflow_3.png)
 
 
 
