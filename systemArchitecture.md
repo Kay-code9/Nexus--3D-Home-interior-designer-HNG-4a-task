@@ -148,9 +148,9 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
    Optional **PWA mode** via Workbox for web deployments.  
 
    ### Data Flow Plan
-![Data architecture flow 1](images/dataflow_1.PNG)  ![Data architecture flow 2](images/dataflow_2.PNG) 
+![Data architecture flow 1](Images/dataflow_1.PNG)  ![Data architecture flow 2](Images/dataflow_2.PNG) 
 
-![Data architecture flow 3](images/dataflow_3.PNG)
+![Data architecture flow 3]("Images/dataflow_3.PNG")
 
  [Link To Dataflow](https://miro.com/app/board/uXjVJ4XIMXQ=/?share_link_id=562397381747)
 
@@ -197,11 +197,11 @@ This app emphasizes client-side 3D rendering to provide a seamless, offline-capa
 
 ## 11. Diagrams and Framework
 - 
-![From App launch through the Dashboard to Template Browse](https://drive.google.com/file/d/1I_1P1SmixcUh_0aveefNFEnqdSBCnSos/view?usp=drive_linkk)
+![From App launch through the Dashboard to Template Browse](Images/userflow_1.PNG)
 
-![Through the "Tour/Template Edit mode/Draw from scratch" to "Drag and drop/add rooms"](https://drive.google.com/file/d/19yHNx3ipjwYqsrUtl_E0s5KPguRnsPpB/view?usp=drive_linkg)
+![Through the "Tour/Template Edit mode/Draw from scratch" to "Drag and drop/add rooms"](Images/userflow_2.PNGg)
 
-![Through "Template Edit mode" to "Save design plan/download"](https://drive.google.com/file/d/1FEYItr01dsx0_nRE1woiNzJqLsBYKrQF/view?usp=drive_linkg)
+![Through "Template Edit mode" to "Save design plan/download"](Images/userflow_3.PNG)
 
 
 
