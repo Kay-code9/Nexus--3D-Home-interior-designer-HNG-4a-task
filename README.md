@@ -49,10 +49,10 @@ Switch to **3D view** to walk around your virtual room.
 ## Application  Visual Preview
 
 
-
+git
 ## Privacy & Data
 User photos and scans are stored encrypted while processing; users control sharing. 
-
+ 
 
 ## Contributors & Contact
 
